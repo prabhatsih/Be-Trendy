@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.ff-manrope {
+    font-family: "Manrope", sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Navbar section start */
+.location:hover .location-list{
+    display: block;
+}
+
+/* Navbar section end */
+
+/*Swipper CSS Start  */
+.hero {
+    position: relative;
+    height: 550px;
+}
+.swiper {
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .anime{
+    animation: left-right-1 3s linear infinite;
+}
+.hero .anime2{
+    animation: left-right-1 4s ease-in-out infinite;
+}
+.hero .anime3{
+    animation: left-right-2 3s linear infinite;
+}
+/*Swipper CSS End  */
+
+/* New Arrival Section Start */
+
+/* New Arrival Section End */
+
+
+
+/* Animation Section Start */
+@keyframes left-right-1 {
+    0% {
+        left: -40px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        left: -50px;
+        top: 5px;
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        left: -40px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+@keyframes left-right-2 {
+    0% {
+        right: -40px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        right : -50px;
+        bottom : 5px;
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        right: -40px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+/* Animation Section End */
